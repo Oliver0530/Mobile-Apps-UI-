@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.Birds"
+             Title="Birds">
+    
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*" >
+        <Image Grid.Column="0" Grid.Row="0"
+               Source="xamarin_logo.png"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+            </Image.GestureRecognizers>
+        </Image>
+
+
+        <Image Grid.Column="1" Grid.Row="0"
+               Source="Rees.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="0" Grid.Row="1"
+               Source="Bluepit.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="1" Grid.Row="1"
+               Source="Parot.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="0" Grid.Row="2"
+               Source="Parot.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="1" Grid.Row="2"
+               Source="Parot.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="0" Grid.Row="3"
+               Source="Parot.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Column="1" Grid.Row="3"
+               Source="Parot.jpg"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
+               HeightRequest="100">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+            </Image.GestureRecognizers>
+        </Image>
+
+
+    </Grid>
+</ContentPage>
+
+
